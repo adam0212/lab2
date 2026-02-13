@@ -1,4 +1,3 @@
-
 /**
  * Program to show imprecision in java
  *
@@ -10,7 +9,7 @@ public class Imprecision
     private double x;
     private double y;
     private double z;
-    
+
     public Imprecision()
     {
         x = 12345.6789e200;
@@ -18,7 +17,7 @@ public class Imprecision
         z = x*y;
         
     }
-    
+
     public void sampleMethod()
     {
         System.out.println("The value of x is: " + x);
@@ -26,5 +25,5 @@ public class Imprecision
         System.out.println("The value of z is: " + z);
         System.out.println("The value of 1 - z is: " + (1 - z));
     }
-    
 }
+
