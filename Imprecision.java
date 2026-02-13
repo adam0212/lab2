@@ -17,7 +17,7 @@ public class Imprecision
         z = x*y;
         
     }
-
+    
     public void sampleMethod()
     {
         System.out.println("The value of x is: " + x);
@@ -26,4 +26,3 @@ public class Imprecision
         System.out.println("The value of 1 - z is: " + (1 - z));
     }
 }
-
