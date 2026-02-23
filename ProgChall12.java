@@ -9,30 +9,30 @@ import java.util.Scanner;
  * 5. prints out first character of name
  * 
  * @author Adam Shaheen adamhshaheen@gmail.com
- * @version v1.0
- * @since 2/16/2026
+ * @version v1.1
+ * @since 2/22/2026
  */
 
 public class ProgChall12
 {
     public static void main (String[] args) {  
         
-        String City, Cityupper, Citylower;
+        String city, cityupper, citylower;
         char first;
-        int Citychars;
+        int citychars;
         Scanner keyboard = new Scanner(System.in);
         
         System.out.print("Enter a city: ");
-        City = keyboard.nextLine();
+        city = keyboard.nextLine();
         
-        Citychars = City.length();
-        Cityupper = City.toUpperCase();
-        Citylower = City.toLowerCase();
-        first = Citylower.charAt(0);
+        citychars = city.length();
+        cityupper = city.toUpperCase();
+        citylower = city.toLowerCase();
+        first = citylower.charAt(0);
         
-        System.out.println("The city entered has: " + Citychars + " chars");
-        System.out.println("In upper case: " + Cityupper);
-        System.out.println("In lower case: " + Citylower);
+        System.out.println("The city entered has: " + citychars + " chars");
+        System.out.println("In upper case: " + cityupper);
+        System.out.println("In lower case: " + citylower);
         System.out.println("First character: " + first);
         
     }

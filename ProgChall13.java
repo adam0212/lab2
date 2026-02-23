@@ -8,15 +8,15 @@ import java.util.Scanner;
  * 4. prints out the meal cost with tax and tip
  * 
  * @author Adam Shaheen adamhshaheen@gmail.com
- * @version v1.0
- * @since 2/16/2026
+ * @version v1.1
+ * @since 2/22/2026
  */
 
 public class ProgChall13
 {
     public static void main (String[] args) {  
-        final double tax = 0.0675;
-        final double tip = 0.2;
+        final double TAX = 0.0675;
+        final double TIP = 0.2;
         double amount, total, taxAmount, tipAmount;
         
         Scanner keyboard = new Scanner(System.in);
@@ -24,8 +24,8 @@ public class ProgChall13
         System.out.print("Enter meal amount: $");
         amount = keyboard.nextDouble();
         
-        taxAmount = tax*amount;
-        tipAmount = tip*amount;
+        taxAmount = TAX*amount;
+        tipAmount = TIP*amount;
         total = tipAmount + taxAmount + amount;
         
         System.out.printf("\nThe tax is: $%,.2f", taxAmount);
